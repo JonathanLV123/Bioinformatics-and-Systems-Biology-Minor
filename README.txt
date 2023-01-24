@@ -1,4 +1,15 @@
-## README File with Descriptions of all python notebooks and their contents
+### Project Title: Predicting information processing speed with machine learning methods: a step forward?
+### Authors: Jonathan Lindstrom-Vautrin*, Martijn Heymans and Almar Kok
+*To whom correspondence should be addressed
+### Abstract: 
+# Objective: to determine the extent to which future information processing speed in older adults in the Netherlands can be predicted using machine learning methods.
+# Background: As life expectancy increases globally, so does the prevalence of age-related disease and age-related physical and mental decline. It is important to study the phenomenon of aging and its char-acteristics so that we can better understand how to deal with and improve conditions as we age. 
+# Methods: In this study the performance of five different machine learning (ML) methods was compared alongside a baseline linear regression model with predetermined features. The ML methods were lightGBM, Random Forest, Lasso Regression, Ridge Regression and Support Vector Regressor. A total of 1100 individuals were split into a training and testing set using a 70:30 split. The models were used to predict future information processing speed. Analysis was performed twice, once with all the features and once with a subset excluding features that were cognitive tests. Mean absolute error and root mean squared error were used to evaluate the models.
+# Results: When all features were included the order of performance from high to low was: lasso regres-sion, random forest, baseline linear regression, LightGBM, ridge regression and SVR. When only the subset excluding cognitive tests was used the order was LightGBM, lasso regression, random forest, ridge regression, baseline and SVR. In both cases the difference in performance between the models was small. Certain interesting features such as eating habits, frequency of exercise, peak flow lung measurements, instrumental support, and hobbies as well as perceived self-efficacy traits appeared as important features for predicting information processing speed.
+# Impact: This research helps open the door for further exploration of epidemiological datasets with ML methods. The ML models can help inform which features are looked at during future hypothesis testing or prediction with linear regression. This study also identified certain interesting features that could poten-tially be related to information processing speed that have not yet been explored in depth. 
+
+
+### Descriptions of all python notebooks and their contents
 
 # Baseline_model.ipynb: Notebook where the baseline models are created
 # Compare_Importances.ipynb: Comparison of the top lists of important features from each of the models from the full analysis.
